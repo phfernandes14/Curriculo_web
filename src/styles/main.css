@@ -1,0 +1,60 @@
+body{
+    background-color: #3F88C5;
+}
+/*CAIXAS DE CONTEUDOS*/
+#mainContainer{
+    width: auto;
+    border-radius: 30px;
+    align-items: center;
+    background-color: white;
+    
+}
+#foto{
+    border-radius: 50%;
+}
+#linha{
+    border-top-width: 2px;
+    border-radius: 30px;
+    width: 55%;
+}
+.boxConteudo{
+    height: 350px;
+    border-radius:10px;
+    padding: 10px;
+}
+.boxInfo{
+    border-radius: 10px;
+    padding:10px ;
+}
+.boxImg{
+    border-radius: 10px;
+    padding-top:10px ;
+    margin: 2px;    
+}
+/*TEXTOS*/
+.textNome{
+    text-align: center;
+    font-family: 'Raleway' ;
+}
+.textMenu{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    text-align: center;
+}
+.textDescricao{
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+.textSkill{
+    font-family: 'Montserrat', serif;
+    font-size: 35px;
+}
+/*EFEITOS*/
+.boxImg:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
